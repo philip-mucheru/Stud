@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegCourse">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER COURSE"
+        android:textSize="24sp"
+        android:gravity="center"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="UNIT CODE"
+        android:id="@+id/unitCode"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="UNIT NAME"
+        android:id="@+id/unitName"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register\n Course"
+        android:id="@+id/regCourseBtn"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View\n Course"
+        android:id="@+id/viewCourseBtn"
+        />
+
+</LinearLayout>

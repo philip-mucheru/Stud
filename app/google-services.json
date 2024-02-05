@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665656217753",
+    "project_id": "stud-6a15e",
+    "storage_bucket": "stud-6a15e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665656217753:android:dfe8f1251044d0332a2808",
+        "android_client_info": {
+          "package_name": "com.example.stud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcdYL3rWkladNfyX0DVnUXK6IjTw7Gyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

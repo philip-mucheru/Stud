@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardAdmin">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMIN DASHBOARD"
+        android:textSize="32sp"
+        android:gravity="center"
+        />
+     <Space
+         android:layout_width="match_parent"
+         android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register\n student"
+        android:id="@+id/regStudent"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="register\n course"
+        android:id="@+id/regCourse"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register\n staff"
+        android:id="@+id/regStaff"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Generate\n reports"
+        android:id="@+id/regReport"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="KARIBU"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/user_details"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOG OUT"
+        android:id="@+id/logout"
+        />
+
+
+</LinearLayout>
